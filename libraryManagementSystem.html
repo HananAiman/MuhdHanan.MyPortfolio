@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Record Students</title>
+    <link rel="stylesheet" type="text/css" href="projectDescriptionStyle.css">
+    <script src="https://kit.fontawesome.com/a57242c974.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navigation-about">
+        <nav>
+            <h2 class="logo"><span>PORT</span>FOLIO</h2>
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutMe.html">About</a></li>
+                <li><a href="myProject.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+    <div class="project">
+        <div class="title">
+            <h2>Library Management System</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <center><img src="BookCatalog.png" alt="LibraryManagementSystem" width="800px" height="400px"></center>
+                <h5>Description</h5>    
+                <div class="descrip">
+                    <p style="font-weight: bold; font-size: 20px;">Within this system, users are empowered to seamlessly engage in a range of 
+                    library management tasks, including the addition, deletion, and reservation of books. The catalog, thoughtfully structured, 
+                    offers users the flexibility to sort and organize information based on diverse criteria. The overarching design philosophy 
+                    prioritizes simplicity, ensuring that the system not only fulfills its fundamental purpose but also provides an intuitive 
+                    and user-friendly experience for efficient library catalog management. Continuous user feedback and iterative improvements 
+                    are central to the design ethos, contributing to a responsive and adaptable library management solution.</p>
+                    <p style="font-weight: bold; font-size: 20px;">People can make reservation for the book they want:</p>
+                </div>
+                <center><img src="ReservationBook.png" alt="LibraryManagementSystem"></center>
+                <p style="text-align: center; padding: 55px;"><a class="button" href="https://github.com/HananAiman/CodeMyProject.git">Code</a></p>
+                <p style="text-align: center; padding: 55px;"><a class="button" href="myProject.html">Return</a></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>This is my portfolio website.</p>
+            <ul class="social">
+                <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://facebook.com/"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://discord.com/"><i class="fa-brands fa-discord" aria-hidden="true"></i></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © Hanan. Made with <i class="fa-solid fa-heart" aria-hidden="true"></i></p>
+        </div>
+    </footer>
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="aboutStyle.css">
+    <script src="https://kit.fontawesome.com/a57242c974.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="navigation-about">
+        <nav>
+            <h2 class="logo"><span>PORT</span>FOLIO</h2>
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutMe.html">About</a></li>
+                <li><a href="myProject.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+
+    <div class="about">
+        <div class="main">
+            <img src="image2.jpg" width="30%" height="30%">
+            <div class="about-col-1">
+                <h2>About Me</h2>
+                <h5>AI Enthusiast & Coding Artist</h5>
+                <p>Passionate about AI and coding artistry. With years of experience, 
+                I seek innovative projects pushing tech boundaries. AI is my playground—where 
+                functionality meets creative flair. It's the space where my enthusiasm thrives, 
+                expressing my artistic side in extraordinary ways.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>This is my portfolio website.</p>
+            <ul class="social">
+                <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter-square" aria-hidden="true"></i></a></li>
+                <li><a href="https://facebook.com/"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://discord.com/"><i class="fa-brands fa-discord" aria-hidden="true"></i></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © Hanan. Made with <i class="fa-solid fa-heart" aria-hidden="true"></i></p>
+        </div>
+    </footer>
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>
